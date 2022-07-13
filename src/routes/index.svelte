@@ -1,5 +1,13 @@
 <script lang="ts">
-  import Hero from '../components/Hero.svelte';
+  import Navbar from "../components/navbar.svelte";
+  import Hero from "../components/hero.svelte";S
+  import ButtonGroup from "../components/button-group.svelte";
+  import Report from "../components/report.svelte";
 </script>
 
-<Hero />
+<div>
+  <Hero />
+  <Navbar />
+  <ButtonGroup />
+  <Report />
+</div>
