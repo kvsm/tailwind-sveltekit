@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@benjaminsinger/sds-tailwind-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@benjaminsinger/sds-tailwind-config/-/sds-tailwind-config-1.0.0.tgz#e224ef6c095c73e46cb3bb8b9fa3ea322d95e5c0"
+  integrity sha512-ym8wqnhcgZkbcQ0ewS5jEQPjc1PaR+0IhoiWKfkHtnLThAkyRNZ4wtgOu8M7BcwxXzCX5XVoG5cYy8gEylYwlA==
+
 "@cloudflare/workers-types@^3.14.0":
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-3.14.1.tgz#8927ad8aa4e4cdd42d25793148337ed04f927021"
