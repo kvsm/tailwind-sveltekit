@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<section>
+<section class="container mx-auto w-3/4">
   <div class="container bg-brand-tertiary  text-white rounded-t-lg mx-auto">
     <h2 class="text-xl p-10">Job skills report</h2>
     <div class="mx-10">

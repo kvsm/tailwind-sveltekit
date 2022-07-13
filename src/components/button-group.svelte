@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<section>
+<section class="container mx-auto w-3/4">
   <div class="container bg-brand-primary  text-white mx-auto px-10 pt-10">
     <button
       class="bg-brand-primary py-4 px-6 rounded-lg outline outline-1 mr-4 focus:bg-brand-tertiary focus:outline focus:outline-brand-tertiary hover:underline hover:underline-offset-1"
