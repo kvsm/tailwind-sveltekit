@@ -1,5 +1,10 @@
 <script lang="ts">
-  import Hero from '../components/hero.svelte'
+  import Navbar from "../components/navbar.svelte";
+  import Hero from "../components/hero.svelte";
+  import Layout from "./__layout.svelte";
 </script>
 
-<Hero />
+<div>
+  <Hero />
+  <Navbar />
+</div>
