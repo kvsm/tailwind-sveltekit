@@ -1,10 +1,10 @@
 <script lang="ts">
 </script>
 
-<section class="bg-dark-bg overflow-hidden">
-  <section class="container mx-auto w-3/4 pt-16">
+<section class="bg-dark-bg">
+  <section class="container mx-auto lg:w-3/4">
     <div class="grid grid-cols-12 gap-32">
-      <div class="col-start-1 col-span-8">
+      <div class="col-start-1 col-span-8 pt-16">
         <h1 class="text-xxl font-bold text-brand-primary pb-6">
           Welcome to your report
         </h1>
@@ -24,8 +24,9 @@
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 336.828 410"
         preserveAspectRatio="xMinYMin meet"
-        class="image image--down image--center image--skills-hero"
-        ><g id="hero-illustration" transform="translate(-40.1 -34.032)"
+        class="col-span-4 pt-10 -mb-16"
+        >
+        <g id="hero-illustration" transform="translate(-40.1 -34.032)"
           ><ellipse
             id="Background"
             cx="142"
