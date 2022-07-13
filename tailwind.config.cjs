@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
+  content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     colors: {
       "brand-primary": "#082545",
@@ -25,21 +25,21 @@ module.exports = {
       "mint-green": "#eef3defa",
       "baby-blue": "#dde5f0",
       "light-yellow": "#fff3dd",
-      "white": "#ffffff",
+      white: "#ffffff",
     },
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
     },
     fontSize: {
-      xs: ['16px', '1.5'],
-      sm: ['20px', '1.1'],
-      md: ['24px', '1.1'],
-      lg: ['32px', '1.1'],
-      xl: ['40px', '1.1'],
-      xxl: ['50px', '1.1']
+      base: ["18px", "1.5"],
+      xs: ["16px", "1.5"],
+      sm: ["20px", "1.1"],
+      md: ["24px", "1.1"],
+      lg: ["32px", "1.1"],
+      xl: ["40px", "1.1"],
+      xxl: ["50px", "1.1"],
     },
-    extend: {
-    },
+    extend: {},
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/typography")],
+};
