@@ -5,9 +5,9 @@
   import Report from "../components/report.svelte";
 </script>
 
-<div>
+<section class="bg-dark-bg">
   <Hero />
   <Navbar />
   <ButtonGroup />
   <Report />
-</div>
+</section>
